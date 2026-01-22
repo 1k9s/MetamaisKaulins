@@ -3,18 +3,16 @@ Spēles mērķis ir savākt 20 punktus ar mazāko metienu skaitu. Spēlētājs m
 Ja uzkrīt skaitlis 1, gājiens beidzas un šajā gājienā iegūtie punkti tiek zaudēti.
 Ja uzkrīt skaitlis no 2 līdz 6, tas tiek pieskaitīts gājiena punktiem.
 Pēc katra metiena spēlētājs var izvēlēties turpināt mest vai pabeigt gājienu un pieskaitīt gājiena punktus kopējam rezultātam.
-Spiežot saglabāt daži punkti tiek pazaudēti.
+Spiežot saglabāt 2 punkti tiek pazaudēti.
 Mērķis ir sasniegt 50 punktus ar mazāko metienu skaitu.
 
 2. Prasību specifikācija
 
 2.1. Fukcionālās prasības
-Pogu attēlošana
-- Attēlotas 2 pogas mest vai saglabāt.
-
 Pogu darbība
-- spiežot mest tiek mests kauliņš
-- Spiežot saglabāt daži punkti tiek noņemti un pārējie gājiena punkti tiek pieskaitīti kopējam skaitam.
+- Tiek attēlotas visas pogas.
+- Spiežot mest tiek mests kauliņš.
+- Spiežot saglabāt 2 punkti tiek noņemti un pārējie gājiena punkti tiek pieskaitīti kopējam skaitam.
 
 Punktu skaitīšana
 - Ja uzkrīt 2-6 tad punkti tiek pieskaitīti gājiena punktiem.
@@ -25,9 +23,9 @@ Punktu attēlošana
 - Beigās attēlots metienu skaits.
 
 Spēles beigas un rezultāts
-- Spēle beidzas, kad kopējais punktu skaits sasniedz vai pārsniedz 50
-- Tiek parādīts metienu skaits
-- Tiek dota opcija spēlēt atkārtoti
+- Spēle beidzas, kad kopējais punktu skaits sasniedz vai pārsniedz 50.
+- Tiek parādīts metienu skaits.
+- Tiek dota opcija spēlēt atkārtoti.
 
 2.2. Nefunkcionālās prasības
 Programmu paredzēts izstrādāt kā darbvirsmas programmatūru ar grafisko saskarni.
