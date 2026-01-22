@@ -1,4 +1,66 @@
-Apraksts
-Prasību specifikācija
-Struktūrskice
-Testpiemēru kopa
+1. Apraksts:
+Spēles mērķis ir savākt 20 punktus ar mazāko metienu skaitu. Spēlētājs met kauliņu.
+Ja uzkrīt skaitlis 1, gājiens beidzas un šajā gājienā iegūtie punkti tiek zaudēti.
+Ja uzkrīt skaitlis no 2 līdz 6, tas tiek pieskaitīts gājiena punktiem.
+Pēc katra metiena spēlētājs var izvēlēties turpināt mest vai pabeigt gājienu un pieskaitīt gājiena punktus kopējam rezultātam.
+Spiežot saglabāt daži punkti tiek pazaudēti.
+Mērķis ir sasniegt 50 punktus ar mazāko metienu skaitu.
+
+2. Prasību specifikācija
+
+2.1 Fukcionālās prasības
+Pogu attēlošana
+- Attēlotas 2 pogas mest vai saglabāt.
+
+Pogu darbība
+- spiežot mest tiek mests kauliņš
+- Spiežot saglabāt daži punkti tiek noņemti un pārējie gājiena punkti tiek pieskaitīti kopējam skaitam.
+
+Punktu skaitīšana
+- Ja uzkrīt 2-6 tad punkti tiek pieskaitīti gājiena punktiem.
+- Ja uzkrīt 1 tad visi gājiena punkti tiek pazaudēti.
+
+Punktu attēlošana
+- Vienmēr attēloti gājiena punkti un kopējie punkti.
+- Beigās attēlots metienu skaits.
+
+Spēles beigas un rezultāts
+- Spēle beidzas, kad kopējais punktu skaits sasniedz vai pārsniedz 50
+- Tiek parādīts metienu skaits
+- Tiek dota opcija spēlēt atkārtoti
+
+2.2 Nefunkcionālās prasības
+Programmu paredzēts izstrādāt kā darbvirsmas programmatūru ar grafisko saskarni.
+Programmu paredzēts darbināt uz datora ar operētājsistēmu Windows.
+Programmu paredzēts veidot ar vienkāršu dizainu.
+
+3. Struktūrskice
+
+4.Testpiemēru kopa
+T1 Klikšķis uz programmas palaišanas ikonas:
+- Atveras logs
+- Redzama aktīva programmas logu minimizēšanas poga
+- Redzama neaktīva programmas logu maksimizēšanas poga
+- Redzama aktīva programmas logu aizvēršanas poga
+- Redzama poga "mest"
+- Redzama poga "saglabāt"
+- Redzams teksts "gājiena punktu skaits:0"
+- Redzams teksts "kopējais punktu skaits:0"
+
+T2 Lietotāja darbības ārpus loga:
+- klikšķinot uz programmas logu minimizēšanas poga, programmas logs tiek pievērts un novietots uzdevumu joslā
+- klikšķinot uz programmas ikonas uzdevumu joslā, programmas logs tiek atjaunots maksimālā izmērā un sākotnējā izskatā
+- klikšķinot uz programmas loga maksimizēšanas pogas, programma tiek maksimizēta
+- klikšķinot uz programmas loga aizvēršanas pogas, programma tiek aizvērta
+
+T3 Lietotāja darbības logā:
+- Spiežot "mest" Tiek mests metamais kauliņš
+    Ja uzmests 2-6 metamā kauliņa uzmestā vērtība tiek pieskaitīta gājiena punktu skaitam.
+    Ja uzmests 1 tad gājiena punkti paliek 0.
+- Spiežot pogu "saglabāt":
+    Ja gājiena punkti ir 2 vai vairāk, tad tiek noņemti 2 punkti un pārējie tiek pieskaitīti kopējam punktu skaitam.
+    Ja gājiena punkti ir mazāk par 2 tad nekas nemainās.
+
+T4 Kopējais punktu skaits sasniedz 50 vai vairāk
+- Tiek parādīts metienu skaits
+- Redzama poga "atkārtot"
