@@ -8,7 +8,7 @@ Mērķis ir sasniegt 50 punktus ar mazāko metienu skaitu.
 
 2. Prasību specifikācija
 
-2.1 Fukcionālās prasības
+2.1. Fukcionālās prasības
 Pogu attēlošana
 - Attēlotas 2 pogas mest vai saglabāt.
 
@@ -29,16 +29,28 @@ Spēles beigas un rezultāts
 - Tiek parādīts metienu skaits
 - Tiek dota opcija spēlēt atkārtoti
 
-2.2 Nefunkcionālās prasības
+2.2. Nefunkcionālās prasības
 Programmu paredzēts izstrādāt kā darbvirsmas programmatūru ar grafisko saskarni.
 Programmu paredzēts darbināt uz datora ar operētājsistēmu Windows.
 Programmu paredzēts veidot ar vienkāršu dizainu.
 
 3. Struktūrskice
+3.1. Spēles skats:
+
+    kopējais punktu skaits:
+    gājiena punktu skaits:
+
+      mest    saglabāt
+
+3.2. Rezultātu skats:
+
+    metienu skaits:
+
+       atkārtot
 
 4.Testpiemēru kopa
 T1 Klikšķis uz programmas palaišanas ikonas:
-- Atveras logs
+- Pa visu ekrānu atveras programmas spēles skats
 - Redzama aktīva programmas logu minimizēšanas poga
 - Redzama neaktīva programmas logu maksimizēšanas poga
 - Redzama aktīva programmas logu aizvēršanas poga
@@ -48,12 +60,12 @@ T1 Klikšķis uz programmas palaišanas ikonas:
 - Redzams teksts "kopējais punktu skaits:0"
 
 T2 Lietotāja darbības ārpus loga:
-- klikšķinot uz programmas logu minimizēšanas poga, programmas logs tiek pievērts un novietots uzdevumu joslā
-- klikšķinot uz programmas ikonas uzdevumu joslā, programmas logs tiek atjaunots maksimālā izmērā un sākotnējā izskatā
-- klikšķinot uz programmas loga maksimizēšanas pogas, programma tiek maksimizēta
-- klikšķinot uz programmas loga aizvēršanas pogas, programma tiek aizvērta
+- Klikšķinot uz programmas logu minimizēšanas poga, programmas logs tiek pievērts un novietots uzdevumu joslā.
+- Klikšķinot uz programmas ikonas uzdevumu joslā, programmas logs tiek atjaunots maksimālā izmērā un sākotnējā izskatā.
+- Klikšķinot uz programmas loga maksimizēšanas pogas, programma tiek maksimizēta.
+- Klikšķinot uz programmas loga aizvēršanas pogas, programma tiek aizvērta.
 
-T3 Lietotāja darbības logā:
+T3 Lietotāja darbības spēles skatā:
 - Spiežot "mest" Tiek mests metamais kauliņš
     Ja uzmests 2-6 metamā kauliņa uzmestā vērtība tiek pieskaitīta gājiena punktu skaitam.
     Ja uzmests 1 tad gājiena punkti paliek 0.
@@ -62,5 +74,16 @@ T3 Lietotāja darbības logā:
     Ja gājiena punkti ir mazāk par 2 tad nekas nemainās.
 
 T4 Kopējais punktu skaits sasniedz 50 vai vairāk
-- Tiek parādīts metienu skaits
-- Redzama poga "atkārtot"
+- Aizveras spēles skats.
+- Atveras rezultātu skats.
+
+T5 Rezultātu skata ielāde:
+- Tiek parādīts metienu skaits.
+- Redzama poga "atkārtot".
+
+T6 Lietotāja darbības rezultātu skatā
+- Spiežet pogu "atkārtot":
+    Aizveras rezultātu skats.
+    Atveras spēles skats.
+    Gājiena punktu skaits ir 0. 
+    Kopējais punktu skaits ir 0.
