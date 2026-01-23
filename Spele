@@ -32,21 +32,7 @@ Programmu paredzēts izstrādāt kā darbvirsmas programmatūru ar grafisko sask
 Programmu paredzēts darbināt uz datora ar operētājsistēmu Windows.
 Programmu paredzēts veidot ar vienkāršu dizainu.
 
-3. Struktūrskice
-3.1. Spēles skats:
-
-    kopējais punktu skaits:
-    gājiena punktu skaits:
-
-      mest    saglabāt
-
-3.2. Rezultātu skats:
-
-    metienu skaits:
-
-       atkārtot
-
-4.Testpiemēru kopa
+3.Testpiemēru kopa
 T1 Klikšķis uz programmas palaišanas ikonas:
 - Pa visu ekrānu atveras programmas spēles skats
 - Redzama aktīva programmas logu minimizēšanas poga
