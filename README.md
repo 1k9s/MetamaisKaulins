@@ -1,0 +1,1 @@
+Visas funkcionalitātes izdevās rezlizēt prototipā
